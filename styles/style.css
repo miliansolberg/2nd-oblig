@@ -14,3 +14,18 @@
     height: 50%;
     width: 100%;
 }
+
+.author {
+    float: left;
+    color: green;
+}
+
+.date {
+    float: left;
+    margin-left: 4px;
+    color: red;
+}
+
+.caption-text {
+    font-size: 0.8em;
+}
