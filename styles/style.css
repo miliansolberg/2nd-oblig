@@ -1,0 +1,31 @@
+* {
+    text-align: center;
+}
+
+.heading {
+    font-size: 2em;
+}
+
+.subheading {
+    font-size: 1em;
+}
+
+#f35 {
+    height: 50%;
+    width: 100%;
+}
+
+.author {
+    float: left;
+    color: green;
+}
+
+.date {
+    float: left;
+    margin-left: 4px;
+    color: red;
+}
+
+.caption-text {
+    font-size: 0.8em;
+}
