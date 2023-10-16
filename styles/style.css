@@ -24,6 +24,12 @@ body {
   width: 90%;
 }
 
+.accesibilitytest {
+  max-width: 80%;
+  text-align: center;
+
+}
+
 /* Group related selectors */
 
 .author {
