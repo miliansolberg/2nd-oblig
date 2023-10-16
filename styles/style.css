@@ -33,8 +33,12 @@ body {
 /* Group related selectors */
 
 .author {
-    text-align: center;
-    color: green;
+  text-align: center;
+  color: green;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px; /* Adjust this value as needed to position it above the image */
+  width: 100%; /* Make sure it spans the full width */
 }
 
 .date {
