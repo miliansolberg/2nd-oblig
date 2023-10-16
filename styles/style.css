@@ -80,3 +80,7 @@ header {
   header li .active {
     background-color: #04AA6D;
   }
+
+  ul {
+    list-style-type: none;
+  }
