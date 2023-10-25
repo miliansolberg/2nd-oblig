@@ -1,96 +1,123 @@
-/* Consistent spacing and indentation */
-
+/* Resetting margins and paddings */
 * {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
-    margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 2rem; /* Adding slight margin around the body */
+}
+
+.container {
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+/* Style the navbar */
+header {
+  background-color: #000;
+  padding: 0.8rem 0;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header li {
+  list-style-type: none;
+}
+
+header li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  margin: 0.4rem 0.8rem;
+  transition: background-color 0.3s ease;
+}
+
+header li a:hover {
+  background-color: #555;
+}
+
+header li .active {
+  background-color: #035E3D;
 }
 
 .heading {
-  text-align: center;
-  font-size: 2em;  
+  font-size: 1.8em;
+  padding: 1.2rem 0;
 }
 
 .subheading {
   font-size: 1em;
-  text-align: center;
+  color: #555;
 }
 
-#zyn-image {
-    height: 70vh;
-  width: 90%;
+.author, .date {
+  display: inline-block;
 }
-
-.accesibilitytest {
-  max-width: 80%;
-  text-align: center;
-
-}
-
-/* Group related selectors */
 
 .author {
-  text-align: center;
-  color: green;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 10px; /* Adjust this value as needed to position it above the image */
-  width: 100%; /* Make sure it spans the full width */
+  color: #444444;
+  padding-right: 6px;
+  margin-left: -1rem;
 }
 
 .date {
-text-align: center;
-    margin-left: 4px;
-  color: #A30000; 
+  color: #444444;
 }
 
-/* Class names indicate purpose */
+#zyn-image {
+  width: 75%;  /* Reduced width further */
+  max-height: 65vh;
+  margin: 1.5rem auto; /* Centering the image */
+}
 
 .caption-text {
   font-size: 0.8em;
-  text-align: center;
+  color: #666;
+  margin-top: -1rem;
+  padding-bottom: 1rem;
 }
 
-/* Consistent naming conventions */
+p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  max-width: 70%; /* Adjust this as per requirement */
+  height: fit-content;
+  line-height: 1.6rem;
+}
 
-/* Style the navbar */
+.subheading-two {
+  text-size: 2em;
+}
 
-header {
-    background-color: #333;
-    overflow: hidden;
-  }
-  
-  header ul {
-    list-style-type: none;  
-    margin: 0;
-    padding: 0;
-  }
-  
-  header li {
-    float: left;
-  }
-  
-  header li a {
-    display: block; 
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
-  
-  /* Change color on hover */
-  header li a:hover {
-    background-color: #111;
-  }
-  
-  /* Active link */ 
-  header li .active {
-    background-color: #035E3D;
-  }
+li {
+  max-width: 70%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-  ul {
-    list-style-type: none;
-  }
+.accessibility-test {
+  width: 800px;
+}
+
+.coding-image {
+  max-width: 75%;
+}
+
+footer {
+  background-color: #0e6d21;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
